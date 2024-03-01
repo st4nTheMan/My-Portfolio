@@ -1,0 +1,42 @@
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.about-me {
+    text-decoration: none;
+    margin: 20px;
+}
+
+div.resume {
+    margin: 20px;
+}
+
+div.education {
+    margin: 20px;
+}
+
+div.projects {
+    margin: 20px;
+}
+
+div.contact {
+    margin: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1, h2, .description {
+    position: relative;
+    margin: 10px;
+    left: 600px;
+    top: 130px;
+}
+
+hr {
+
+}
