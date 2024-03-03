@@ -6,7 +6,6 @@ header {
 }
 
 div.about-me {
-    text-decoration: none;
     margin: 20px;
 }
 
@@ -33,10 +32,44 @@ a:link {
 h1, h2, .description {
     position: relative;
     margin: 10px;
-    left: 600px;
-    top: 130px;
+    left: 948px;
+    top: 200px;
 }
 
-hr {
+h1 {
+    width: 246px;
+    height: 117px;
+    font-size: 100px;
+}
 
+h2 {
+    width: 216px;
+    height: 25px;
+}
+
+.description {
+    width: 371px;
+    height: 94px;
+}
+
+img{
+    position: absolute;
+    display: flex;
+    width: 378px;
+    height: 366px;
+    object-fit: fill;
+    left: 536px;
+    bottom: 320px;
+    border-radius: 183.5px;
+    scale: 100%;
+
+}
+
+.button {
+    font-size: 16px;
+}
+
+.phone, .email, .socials {
+    position: relative;
+    display: flex;
 }
