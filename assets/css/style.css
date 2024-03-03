@@ -5,24 +5,10 @@ header {
     justify-content: center;
 }
 
-div.about-me {
+.about-me, .resume, .projects, .contact {
+    color: black;
     margin: 20px;
-}
-
-div.resume {
-    margin: 20px;
-}
-
-div.education {
-    margin: 20px;
-}
-
-div.projects {
-    margin: 20px;
-}
-
-div.contact {
-    margin: 20px;
+    font-weight: bold;
 }
 
 a:link {
@@ -52,24 +38,82 @@ h2 {
     height: 94px;
 }
 
-img{
+.pfp{
     position: absolute;
     display: flex;
     width: 378px;
     height: 366px;
     object-fit: fill;
     left: 536px;
-    bottom: 320px;
+    top: 273px;
     border-radius: 183.5px;
     scale: 100%;
 
 }
 
-.button {
+.button1, .button2, .button3 {
+    position: relative;
     font-size: 16px;
+    left: 900px;
+    top: 220px;
+    width: 113px;
+    height: 110px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.button1 {
+    background-color: orange;
+}
+
+.button2 {
+    background-color: red;
+}
+
+.button3 {
+    background-color: cyan;
+}
+
+hr {
+    position: relative;
+    display: flex;
+    width: 95%;
+    top: 550px;
 }
 
 .phone, .email, .socials {
     position: relative;
-    display: flex;
+    width: 393px;
+    height: 97px;
+    font-size: 12px;
+}
+
+.phone {
+    left: 200px;
+    top: 580px;
+}
+
+.email {
+    left: 900px;
+    top: 465px;
+}
+
+.socials {
+    left: 1550px;
+    top: 350px;
+}
+
+.ig_logo, .x_logo {
+    margin: 3px;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    left: 10px;
+}
+
+.bold_text {
+    font-weight: bold;
 }
