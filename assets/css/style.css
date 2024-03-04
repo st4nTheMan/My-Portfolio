@@ -1,3 +1,8 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
 header {
     position: relative;
     display: flex;
@@ -13,6 +18,22 @@ header {
 
 a:link {
     text-decoration: none;
+}
+
+.fade-in-content {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h1, h2, .description {
@@ -36,6 +57,7 @@ h2 {
 .description {
     width: 371px;
     height: 94px;
+    top: 220px;
 }
 
 .pfp{
@@ -45,7 +67,7 @@ h2 {
     height: 366px;
     object-fit: fill;
     left: 536px;
-    top: 273px;
+    top: 180px;
     border-radius: 183.5px;
     scale: 100%;
 
@@ -65,16 +87,23 @@ h2 {
     border: 2px solid black;
 }
 
-.button1 {
+.button1{
     background-color: orange;
+    transition: background-color 0.5s;
 }
 
 .button2 {
     background-color: red;
+    transition: background-color 0.5s;
 }
 
 .button3 {
     background-color: cyan;
+    transition: background-color 0.5s;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+    background-color: whitesmoke;
 }
 
 hr {
