@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    background-size: 100% 100vh;
+    font-family: Inter, sans-serif;
     background-color: whitesmoke;
 }
 
@@ -21,7 +22,7 @@ a:link {
 }
 
 .fade-in-content {
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -106,7 +107,7 @@ h2 {
     background-color: whitesmoke;
 }
 
-hr {
+footer hr {
     position: relative;
     display: flex;
     width: 95%;
@@ -131,7 +132,8 @@ hr {
 }
 
 .socials {
-    left: 1550px;
+    width: 75px;
+    left: 1600px;
     top: 350px;
 }
 
@@ -145,4 +147,75 @@ hr {
 
 .bold_text {
     font-weight: bold;
+}
+
+.page-head {
+    position: relative;
+    left: 207px;
+    top: 80px;
+    font-size: 42px;
+}
+
+.section1 {
+    position: relative;
+    left: 207px;
+    top: 126px;
+    font-size: 26px;
+}
+
+.separator1 hr {
+    position: relative;
+    display: flex;
+    width: 95%;
+    top: 400px;
+}
+
+.sy1 {
+    position: relative;
+    width: 500px;
+    left: 853px;
+    top: 167px;
+}
+    
+
+.sy2 {
+    position: relative;
+    width: 500px;
+    left: 1016px;
+    top: 130px;
+}
+
+.sy3 {
+    position: relative;
+    width: 500px;
+    left: 852px;
+    top: 290px;
+}
+
+.sy4 {
+    position: relative;
+    width: 500px;
+    left: 1016px;
+    top: 255px;
+}
+
+.section2 {
+    position: relative;
+    left: 207px;
+    top: 446px;
+    font-size: 26px;
+}
+
+ul {
+    width: 1000px;
+}
+
+ul li{
+    margin: 20px;
+}
+
+.skills {
+    position: relative;
+    top: 500px;
+    left: 852px;
 }
