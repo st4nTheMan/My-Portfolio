@@ -138,8 +138,8 @@ footer hr {
 }
 
 .ig_logo, .x_logo {
-    margin: 3px;
     position: relative;
+    margin: 3px;
     width: 18px;
     height: 18px;
     left: 10px;
