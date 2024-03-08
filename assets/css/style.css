@@ -111,7 +111,7 @@ footer hr {
     position: relative;
     display: flex;
     width: 95%;
-    top: 550px;
+    top: 850px;
 }
 
 .phone, .email, .socials {
@@ -123,18 +123,18 @@ footer hr {
 
 .phone {
     left: 200px;
-    top: 580px;
+    top: 880px;
 }
 
 .email {
     left: 900px;
-    top: 465px;
+    top: 767px;
 }
 
 .socials {
     width: 75px;
     left: 1600px;
-    top: 350px;
+    top: 652px;
 }
 
 .ig_logo, .x_logo {
@@ -163,11 +163,18 @@ footer hr {
     font-size: 26px;
 }
 
-.separator1 hr {
+.separator1 hr{
     position: relative;
     display: flex;
     width: 95%;
     top: 400px;
+}
+
+.separator2 hr{
+    position: relative;
+    display: flex;
+    width: 95%;
+    top: 600px;
 }
 
 .sy1 {
@@ -206,16 +213,42 @@ footer hr {
     font-size: 26px;
 }
 
+.section3 {
+    position: relative;
+    left: 207px;
+    top: 640px;
+    font-size: 26px;
+}
+
 ul {
-    width: 1000px;
+    width: 800px;
 }
 
 ul li{
     margin: 20px;
+    width: 800px;
 }
 
 .skills {
     position: relative;
     top: 500px;
     left: 852px;
+    width: 800px;
+}
+
+.awards {
+    position: relative;
+    top: 750px;
+    left: 852px;
+    width: 800px;
+}
+
+.awards ul li {
+    margin: 50px;
+}
+
+.attendance p, .dl p {
+    position: relative;
+    font-weight: bold;
+    left: 150px;
 }
