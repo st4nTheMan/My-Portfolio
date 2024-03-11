@@ -283,6 +283,7 @@ ul li{
 .lf {
     position: relative;
     left: 220px;
+    width: 291px;
 }
 
 .contact-phone p{
@@ -290,6 +291,7 @@ ul li{
     margin: 7px;
     top: 50px;
     left: 215px;
+    width: 138px;
 }
 
 .contact-email p{
@@ -297,4 +299,17 @@ ul li{
     margin: 7px;
     top: 79px;
     left: 215px;
+    width: 138px;
+}
+
+.fname-input p{
+    margin: 2px;
+    width: 215px;
+}
+
+.fname-input input[type='text'] {
+    height: 45px;
+    font-family: Inter, sans-serif;
+    padding: 3px 3px 3px 7px;
+    font-size: 16px;
 }
