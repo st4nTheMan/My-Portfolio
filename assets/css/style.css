@@ -368,19 +368,51 @@ input[type='text'] {
     project.html
 */
 
-.project1 {
+.project1, .project2, .project3 {
+    position: relative;
+    left: 219px;
+}
 
+.project1 {
+    top: 120px;
 }
 
 .project2 {
-    
+    top: 370px;
 }
 
-.project1 h3, .project2 h3{
+.project3 {
+    top: 650px;
+}
+
+.project1 h3, .project2 h3, .project3 h3{
     font-size: 26px;
 }
 
-.project1 p, .project2 p{
+.project1 p, .project2 p, .project3 p{
     width: 645px;
     height: 75px;
+}
+
+.project-images {
+    width: 371px;
+    height: 336px;
+}
+
+.project-image1 {
+    position: absolute;
+    left: 1175px;
+    top: 230px;
+}
+
+.project-image2 {
+    position: absolute;
+    left: 1175px;
+    top: 630px;
+}
+
+.project-image3 {
+    position: absolute;
+    left: 1175px;
+    top: 1050px;
 }
