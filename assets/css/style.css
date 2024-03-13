@@ -113,7 +113,6 @@ h2 {
     background-color: #80D8DA;
     transition: background-color 0.5s;
 }
-
 .button1:hover, .button2:hover, .button3:hover {
     background-color: whitesmoke;
 }
@@ -302,14 +301,86 @@ ul li{
     width: 138px;
 }
 
-.fname-input p{
-    margin: 2px;
+.input-container1 {
+    display: flex;
+    position: relative;
+    left: 1050px;
+    top: -120px;
     width: 215px;
 }
 
-.fname-input input[type='text'] {
+.input-container2 {
+    display: flex;
+    position: relative;
+    left: 1050px;
+    top: -61px;
+    width: 215px;
+}
+
+.input-container3 {
+    display: flex;
+    position: relative;
+    left: 1050px;
+    top: -2px;
+    width: 215px;
+}
+
+.fname-input p, .lname-input p, .email-input p, .subject-input p, .message-input p{
+    margin: 2px 31px;
+}
+
+input[type='text'] {
     height: 45px;
     font-family: Inter, sans-serif;
     padding: 3px 3px 3px 7px;
     font-size: 16px;
+    margin: 0px 31px;
+}
+
+.message-input input[type='text'] {
+    width: 300px;
+    height: 141px;
+}
+
+.submit-button {
+    position: relative;
+    font-size: 16px;
+    width: 155px;
+    height: 155px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+    border: 2px solid black;
+    left: 1448px;
+    top: -150px;
+}
+
+.submit-button {
+    background-color: #EEA302;
+    transition: background-color 0.5s;
+}
+
+.submit-button:hover {
+    background-color: whitesmoke;
+}
+
+/*
+    project.html
+*/
+
+.project1 {
+
+}
+
+.project2 {
+    
+}
+
+.project1 h3, .project2 h3{
+    font-size: 26px;
+}
+
+.project1 p, .project2 p{
+    width: 645px;
+    height: 75px;
 }
