@@ -1,100 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>My Portfolio</title>
+        <title>Resume | Stanley Soco</title>
     </head>
     <body>
-        <header>
-            <a class="about-me" href="index.html">About me</a>
-            |
-            <a class="resume" href="resume.html">Resume</a>
-            |
-            <a class="projects" href="projects.html">Projects</a>
-            |
-            <a class="contact" href="contact.html">Contact</a>
-        </header>
+        <div class="site-shell">
+            <header class="site-header">
+                <nav class="nav-bar" aria-label="Primary">
+                    <a class="brand" href="index.html">Stanley Soco</a>
+                    <div class="nav-links">
+                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link active" href="resume.html">Resume</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </header>
 
-        <div class="fade-in-content">
-            <h1 class="page-head">Resume</h1>
-            <h2 class="section1">Education</h2>
-            <div class="school-year1">
-                <div class="sy1">
-                    <p>2021-2022</p>
-                </div>
-                <div class="sy2">
-                    <div class="bold_text">
-                        <p>University of Cebu Lapu-Lapu and Mandaue |</p>
+            <main class="page-content fade-in-content">
+                <section class="page-stack">
+                    <div class="content-section">
+                        <h1 class="page-head">Resume</h1>
+                        <p class="section-intro">
+                            A concise overview of my education, technical background, and the strengths I continue to build through hands-on learning.
+                        </p>
                     </div>
-                    <p>TVL-ICT</p>
-                </div>
-            </div>
-            <div class="school-year2">
-                <div class="sy3">
-                    <p>2023-Present</p>
-                </div>
-                <div class="sy4">
-                    <div class="bold_text">
-                        <p>CITE Technical Institue Inc. |</p>
+
+                    <section class="content-section">
+                        <h2 class="section-heading">Education</h2>
+                        <div class="timeline">
+                            <article class="timeline-card">
+                                <div class="timeline-year">2021-2022</div>
+                                <div>
+                                    <h3 class="bold_text">University of Cebu Lapu-Lapu and Mandaue</h3>
+                                    <p>TVL-ICT</p>
+                                </div>
+                            </article>
+                            <article class="timeline-card">
+                                <div class="timeline-year">2023-Present</div>
+                                <div>
+                                    <h3 class="bold_text">CITE Technical Institute Inc.</h3>
+                                    <p>Diploma in Computer Engineering Technology</p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2 class="section-heading">Skills & Expertise</h2>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <h3 class="bold_text">Technical Skills</h3>
+                                <ul>
+                                    <li>Building web applications using HTML, CSS, JavaScript, Node.js, Express, EJS, and Tailwind CSS</li>
+                                    <li>Working with databases using MySQL, MongoDB, and SQL for data handling and analysis</li>
+                                    <li>Programming fundamentals in C, C++, Java, and PHP</li>
+                                    <li>Hardware servicing, PC assembly, and basic computer system maintenance</li>
+                                    <li>Troubleshooting computer systems and understanding core networking concepts</li>
+                                    <li>Basic system administration experience, including Microsoft Active Directory Domain Services (AD DS)</li>
+                                </ul>
+                            </div>
+                            <div class="skill-card">
+                                <h3 class="bold_text">Tools & Work Strengths</h3>
+                                <ul>
+                                    <li>Using Microsoft Word, Excel, and PowerPoint for documentation, reporting, and presentations</li>
+                                    <li>Creating clean, user-focused interfaces with attention to layout, usability, and presentation</li>
+                                    <li>Using AI-assisted development to streamline implementation and improve productivity</li>
+                                    <li>Adaptable, collaborative, and committed to continuous learning</li>
+                                    <li>Basic visual design experience with Photoshop and animation tools</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2 class="section-heading">Tech Stack</h2>
+                        <div class="stack-grid">
+                            <div class="stack-card">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+                            <div class="stack-card">
+                                <ul>
+                                    <li>NodeJS</li>
+                                    <li>EJS</li>
+                                    <li>ExpressJS</li>
+                                    <li>TailwindCSS</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+                            <div class="stack-card">
+                                <ul>
+                                    <li>C</li>
+                                    <li>C++</li>
+                                    <li>Java</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2 class="section-heading">Awards & Certificates</h2>
+                        <div class="awards-grid">
+                            <article class="award-card">
+                                <h3 class="bold_text">Perfect Attendance Award</h3>
+                                <p>1st Year, 1st Semester and 2nd Semester</p>
+                                <p>CITE Technical Institute Inc.</p>
+                            </article>
+                            <article class="award-card">
+                                <h3 class="bold_text">Director's List Award</h3>
+                                <p>1st Year, 1st Semester and 2nd Semester</p>
+                                <p>CITE Technical Institute Inc.</p>
+                            </article>
+                            <article class="award-card">
+                                <h3 class="bold_text">Computer System Servicing NCII</h3>
+                                <p>CITE Technical Institute Inc.</p>
+                            </article>
+                        </div>
+                    </section>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <div class="site-footer__content">
+                    <div class="footer-grid">
+                        <div class="footer-card">
+                            <p class="bold_text">Stanley Soco</p>
+                            <p class="muted">Aspiring tech professional building reliable digital and hardware solutions.</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Phone</p>
+                            <p>0991 884 8776</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Email</p>
+                            <p>stanleysoco@gmail.com</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Social Media</p>
+                            <div class="social-links">
+                                <a class="social-link" href="https://www.instagram.com/6ixtyzz/" target="_blank" rel="noreferrer">
+                                    <img class="ig_logo" src="img/ig_logo.webp" alt="Instagram">
+                                </a>
+                                <a class="social-link" href="https://twitter.com/Stanley0917" target="_blank" rel="noreferrer">
+                                    <img class="x_logo" src="img/x_logo.svg" alt="X">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <p>Diploma in Computer Engineering Technology</p>
                 </div>
-            </div>
-            <div class="separator1">
-                <hr>
-            </div>
-            <h2 class="section2">Skills<br> & Expertise</h2>
-            <div class="skills">
-                <ul>
-                    <li>Encoding</li>
-                    <li>Coding/Programming</li>
-                    <li>Hardware Servicing/PC Assembling</li>
-                    <li>Microsoft Office (MS, Word, MS Excel, MS Powerpoint)</li>
-                    <li>Computer Operations, Minor Troubleshooting & Networking</li>
-                    <li>Animation & Photoshop</li>
-                </ul>
-            </div>
-            <div class="separator2">
-                <hr>
-            </div>
-            <h2 class="section3">Awards<br> & Certificates</h2>
-            <div class="awards">
-                <ul>
-                    <div class="attendance">
-                        <li>1st Year. 1st Semester & 2nd Semester Perfect Attendance Award</li>
-                        <p>CITE Technical Institute Inc.</p>
-                    </div>
-                    <div class="dl">
-                        <li>1st Year. 1st Semester & 2nd Semester Director’s List Award</li>
-                        <p>CITE Technical Institute Inc.</p>
-                    </div>
-                </ul>
-            </div>
+            </footer>
         </div>
-
-        <footer>
-            <hr>
-            <div class="phone">
-                <p class="bold_text">Phone</p>
-                <p>0991 884 8776</p>
-            </div>
-            <div class="email">
-                <p class="bold_text">Email</p>
-                <p>stanleysoco@gmail.com</p>
-            </div>
-            <div class="socials">
-                <p class="bold_text">Social Media</p>
-                <a href="https://www.instagram.com/6ixtyzz/" target="_blank">
-                    <img class="ig_logo" src="img/ig_logo.webp" alt="ig_logo">
-                </a>
-                <a href="https://twitter.com/Stanley0917" target="_blank">
-                    <img class="x_logo" src="img/x_logo.svg" alt="x_logo">
-                </a>
-            </div>
-        </footer>
-        
-        <script src="/assets/js/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

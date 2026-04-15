@@ -1,94 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>My Portfolio</title>
+        <title>Projects | Stanley Soco</title>
     </head>
     <body>
-        <header>
-            <a class="about-me" href="index.html">About me</a>
-            |
-            <a class="resume" href="resume.html">Resume</a>
-            |
-            <a class="projects" href="projects.html">Projects</a>
-            |
-            <a class="contact" href="contact.html">Contact</a>
-        </header>
+        <div class="site-shell">
+            <header class="site-header">
+                <nav class="nav-bar" aria-label="Primary">
+                    <a class="brand" href="index.html">Stanley Soco</a>
+                    <div class="nav-links">
+                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="resume.html">Resume</a>
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </header>
 
-        <div class="fade-in-content">
-            <h1 class="page-head">Projects</h1>
-            <div class="project1">
-                <h3 class="bold_text">Food Ordering System</h3>
-                <p>Food Ordering System using Java Swing provides a
-                    user-friendly interface for customers to browse menus,
-                    place orders, and complete transactions efficiently.
-                    It streamlines the food ordering process for both customers
-                    and restaurant staff, enhancing the overall dining experience.
-                    <a href="https://github.com/st4nTheMan/Food-Ordering-System.git" target="_blank">Click here</a> for the source code.
-                </p>
-            </div>
-            <div class="project-image1">
-                <img class="project-images" src="img/foodsystem.png" alt="foodsystem">
-            </div>
-            <div class="project2">
-                <h3 class="bold_text">CRUD File Handling</h3>
-                <p>A CRUD (Create, Read, Update, Delete) File Handling system 
-                    using C programming is designed to manipulate files to perform
-                    basic data operations. For creation, the system establishes a 
-                    new file and inputs data into it. Reading involves accessing 
-                    an existing file to retrieve its contents. Updating implies 
-                    altering existing data within the file. Finally, deleting 
-                    entails removing specific content or the entire file altogether. 
-                    These operations are fundamental for managing data stored in files, 
-                    essential for numerous file-based applications developed in C.
-                    <a href="https://github.com/st4nTheMan/CRUD-File-Handling.git" target="_blank">Click here</a> for the source code.
-                </p>
-            </div>
-            <div class="project-image2">
-                <img class="project-images" src="img/crud.png" alt="crud">
-            </div>
-            <div class="project3">
-                <h3 class="bold_text">Forms</h3>
-                <p>The provided HTML and CSS code constructs a stylish and 
-                    functional form interface aimed at collecting user information. 
-                    It includes fields for first name, middle name, last name, sex,
-                    batch, and section, each accompanied by a descriptive label. 
-                    The CSS styling enhances the form's appearance with background 
-                    images, gradients, and font styles, while ensuring clarity and 
-                    focus on the input fields. Structured within a bordered container 
-                    and vertically aligned in the center of the webpage, the form 
-                    offers both visual appeal and user-friendly functionality for data 
-                    collection in web applications.
-                    <a href="https://github.com/st4nTheMan/Forms-Project.git" target="_blank">Click here</a> for the source code.
-                </p>
-            </div>
-            <div class="project-image3">
-                <img class="project-images" src="img/forms.png" alt="forms">
-            </div>
+            <main class="page-content fade-in-content">
+                <section class="page-stack">
+                    <div class="content-section">
+                        <h1 class="page-head">Projects</h1>
+                        <p class="section-intro">
+                            A selection of projects that reflect my interest in software development, practical problem-solving,
+                            and building useful experiences across different tools, languages, and environments.
+                        </p>
+                    </div>
+
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-copy">
+                                <h3 class="bold_text">Food Ordering System</h3>
+                                <p class="project-meta">Java Swing</p>
+                                <p>
+                                    A desktop application designed to simplify menu browsing, order placement, and payment
+                                    processing while supporting smoother restaurant operations.
+                                </p>
+                                <a class="project-link" href="https://github.com/st4nTheMan/Food-Ordering-System.git" target="_blank" rel="noreferrer">View source code</a>
+                            </div>
+                            <div class="project-image">
+                                <img src="img/foodsystem.png" alt="Preview of the Food Ordering System project">
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-copy">
+                                <h3 class="bold_text">CRUD File Handling</h3>
+                                <p class="project-meta">C</p>
+                                <p>
+                                    A C-based file handling project that demonstrates create, read, update, and delete
+                                    operations for managing structured data in a file-driven application.
+                                </p>
+                                <a class="project-link" href="https://github.com/st4nTheMan/CRUD-File-Handling.git" target="_blank" rel="noreferrer">View source code</a>
+                            </div>
+                            <div class="project-image">
+                                <img src="img/crud.png" alt="Preview of the CRUD File Handling project">
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-copy">
+                                <h3 class="bold_text">Forms</h3>
+                                <p class="project-meta">HTML and CSS</p>
+                                <p>
+                                    A front-end form project focused on clean presentation, organized data entry, and a
+                                    more engaging user experience for collecting information.
+                                </p>
+                                <a class="project-link" href="https://github.com/st4nTheMan/Forms-Project.git" target="_blank" rel="noreferrer">View source code</a>
+                            </div>
+                            <div class="project-image">
+                                <img src="img/forms.png" alt="Preview of the Forms project">
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-copy">
+                                <h3 class="bold_text">Inventory System</h3>
+                                <p class="project-meta">Node.js, Express, MySQL, EJS, and Tailwind CSS</p>
+                                <p>
+                                    A web-based inventory and sales management system built to organize products,
+                                    track sales activity, and support day-to-day business operations. I also used
+                                    AI-assisted development to help streamline implementation and improve productivity.
+                                </p>
+                                <a class="project-link" href="https://github.com/st4nTheMan/twoj-invn-node.git" target="_blank" rel="noreferrer">View source code</a>
+                            </div>
+                            <div class="project-image">
+                                <img src="img/invn-system-nodejs.png" alt="Preview of the Inventory System project">
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <div class="site-footer__content">
+                    <div class="footer-grid">
+                        <div class="footer-card">
+                            <p class="bold_text">Stanley Soco</p>
+                            <p class="muted">Aspiring tech professional building reliable digital and hardware solutions.</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Phone</p>
+                            <p>0991 884 8776</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Email</p>
+                            <p>stanleysoco@gmail.com</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Social Media</p>
+                            <div class="social-links">
+                                <a class="social-link" href="https://www.instagram.com/6ixtyzz/" target="_blank" rel="noreferrer">
+                                    <img class="ig_logo" src="img/ig_logo.webp" alt="Instagram">
+                                </a>
+                                <a class="social-link" href="https://twitter.com/Stanley0917" target="_blank" rel="noreferrer">
+                                    <img class="x_logo" src="img/x_logo.svg" alt="X">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-
-        <footer>
-            <hr>
-            <div class="phone">
-                <p class="bold_text">Phone</p>
-                <p>0991 884 8776</p>
-            </div>
-            <div class="email">
-                <p class="bold_text">Email</p>
-                <p>stanleysoco@gmail.com</p>
-            </div>
-            <div class="socials">
-                <p class="bold_text">Social Media</p>
-                <a href="https://www.instagram.com/6ixtyzz/" target="_blank">
-                    <img class="ig_logo" src="img/ig_logo.webp" alt="ig_logo">
-                </a>
-                <a href="https://twitter.com/Stanley0917" target="_blank">
-                    <img class="x_logo" src="img/x_logo.svg" alt="x_logo">
-                </a>
-            </div>
-        </footer>
-        <script src="/assets/js/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

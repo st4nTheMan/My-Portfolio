@@ -1,86 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>My Portfolio</title>
+        <title>Contact | Stanley Soco</title>
     </head>
     <body>
-        <header>
-            <a class="about-me" href="index.html">About me</a>
-            |
-            <a class="resume" href="resume.html">Resume</a>
-            |
-            <a class="projects" href="projects.html">Projects</a>
-            |
-            <a class="contact" href="contact.html">Contact</a>
-        </header>
+        <div class="site-shell">
+            <header class="site-header">
+                <nav class="nav-bar" aria-label="Primary">
+                    <a class="brand" href="index.html">Stanley Soco</a>
+                    <div class="nav-links">
+                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="resume.html">Resume</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </header>
 
-        <div class="fade-in-content">
-            <h1 class="page-head">Contact</h1>
-            <div class="lf">
-                <p>Looking forward to hearing from you.</p>
-            </div>
-            <div class="contact-phone">
-                <p class="bold_text">Phone</p>
-                <p>0991 884 8776</p>
-            </div>
-            <div class="contact-email">
-                <p class="bold_text">Email</p>
-                <p>stanleysoco@gmail.com</p>
-            </div>
-            <div class="input-container1">
-                <div class="fname-input">
-                    <p>First name</p>
-                    <input type="text" name="fname" id="fname" maxlength="50">
+            <main class="page-content fade-in-content">
+                <section class="page-stack">
+                    <div class="content-section">
+                        <h1 class="page-head">Contact</h1>
+                        <p class="section-intro">If you have an opportunity, collaboration, or project idea, feel free to reach out directly or send a message through the form below.</p>
+                    </div>
+
+                    <div class="contact-layout">
+                        <aside class="contact-card">
+                            <h3 class="bold_text">Let's connect</h3>
+                            <p class="section-intro">
+                                If you have an opportunity, collaboration, or project idea, I would be glad to talk.
+                            </p>
+                            <div class="contact-list">
+                                <div>
+                                    <p class="bold_text">Phone</p>
+                                    <p>0991 884 8776</p>
+                                </div>
+                                <div>
+                                    <p class="bold_text">Email</p>
+                                    <p>stanleysoco@gmail.com</p>
+                                </div>
+                            </div>
+                        </aside>
+
+                        <form
+                            class="contact-form"
+                            id="contact-form"
+                            action="https://formsubmit.co/ajax/stanleysoco@gmail.com"
+                            method="POST"
+                        >
+                            <input type="hidden" name="_subject" value="New portfolio contact form message">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="contact-form-grid">
+                                <div class="input-group">
+                                    <label for="fname">First name</label>
+                                    <input type="text" name="fname" id="fname" maxlength="50" placeholder="Your first name">
+                                </div>
+                                <div class="input-group">
+                                    <label for="lname">Last name</label>
+                                    <input type="text" name="lname" id="lname" maxlength="50" placeholder="Your last name">
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" name="email" id="email" maxlength="100" placeholder="you@example.com" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" name="subject" id="subject" maxlength="80" placeholder="What would you like to talk about?">
+                                </div>
+                                <div class="input-group full-width">
+                                    <label for="message">Message *</label>
+                                    <textarea name="message" id="message" placeholder="Write your message here..." required></textarea>
+                                </div>
+                                <div class="input-group full-width">
+                                    <p class="field-note">Messages are sent to <strong>stanleysoco@gmail.com</strong>, and I can reply using the email address you enter above.</p>
+                                </div>
+                                <div class="input-group full-width">
+                                    <button class="submit-button" type="submit">Submit</button>
+                                </div>
+                                <div class="input-group full-width">
+                                    <p class="form-status" id="form-status" aria-live="polite"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <div class="site-footer__content">
+                    <div class="footer-grid">
+                        <div class="footer-card">
+                            <p class="bold_text">Stanley Soco</p>
+                            <p class="muted">Aspiring tech professional building reliable digital and hardware solutions.</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Phone</p>
+                            <p>0991 884 8776</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Email</p>
+                            <p>stanleysoco@gmail.com</p>
+                        </div>
+                        <div class="footer-card">
+                            <p class="bold_text">Social Media</p>
+                            <div class="social-links">
+                                <a class="social-link" href="https://www.instagram.com/6ixtyzz/" target="_blank" rel="noreferrer">
+                                    <img class="ig_logo" src="img/ig_logo.webp" alt="Instagram">
+                                </a>
+                                <a class="social-link" href="https://twitter.com/Stanley0917" target="_blank" rel="noreferrer">
+                                    <img class="x_logo" src="img/x_logo.svg" alt="X">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="lname-input">
-                    <p>Last name</p>
-                    <input type="text" name="lname" id="lname" maxlength="50">
-                </div>
-            </div>
-            <div class="input-container2">
-                <div class="email-input">
-                    <p>Email *</p>
-                    <input type="text" name="email" id="email" maxlength="100" required>
-                </div>
-                <div class="subject-input">
-                    <p>Subject</p>
-                    <input type="text" name="subject" id="subject" maxlength="50">
-                </div>
-            </div>
-            <div class="input-container3">
-                <div class="message-input">
-                    <p>Message</p>
-                    <input type="text" name="message" id="message">
-                </div>
-            </div>
-            <a href="">
-                <button class="submit-button">Submit</button>
-            </a>
+            </footer>
         </div>
-
-        <footer>
-            <hr>
-            <div class="phone">
-                <p class="bold_text">Phone</p>
-                <p>0991 884 8776</p>
-            </div>
-            <div class="email">
-                <p class="bold_text">Email</p>
-                <p>stanleysoco@gmail.com</p>
-            </div>
-            <div class="socials">
-                <p class="bold_text">Social Media</p>
-                <a href="https://www.instagram.com/6ixtyzz/" target="_blank">
-                    <img class="ig_logo" src="img/ig_logo.webp" alt="ig_logo">
-                </a>
-                <a href="https://twitter.com/Stanley0917" target="_blank">
-                    <img class="x_logo" src="img/x_logo.svg" alt="x_logo">
-                </a>
-            </div>
-        </footer>
-        <script src="/assets/js/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
